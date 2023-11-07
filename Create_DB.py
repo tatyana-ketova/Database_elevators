@@ -3,7 +3,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="31101987"
+  password=input('Right password')
 )
 
 #create a database if exists
